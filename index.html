@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <header id="header" class="bg-black">
+        <img id="header-img" class="header-logo" src="./fazbear-entertainment-logo.png" alt="fazbear-entertainment-logo" />
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#news">News</a>
+            <a class="nav-link" href="#pricings">Pricings</a>
+        </nav>
+    </header>
+    <main>
+        <section class="bg-black win-ticket section">
+            <img class="win-ticket-img" src="./five-nights-at-freddys.jpg" alt="five-nights-at-freddys" />
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                <p class="win-ticket-title">COME JOIN US!!!</p>
+                <p class="win-ticket-instruction">Enter for a chance to win an all-you-can-eat day ticket at Freddy Fazbear's Pizza!!!</p>
+                <input id="email" class="input-email" type="email" name="email" placeholder="Enter your email" />
+                <input id="submit" class="input-submit" type="submit" value="Submit" />
+            </form>
+        </section>
+
+        <section id="features" class="section">
+            <section class="feature bg-black">
+                <div class="feature-img-wrapper">
+                    <img class="feature-img" src="./freddy-singing.webp" alt="freddy-singing" />
+                </div>
+                <div class="feature-desc">
+                    <p class="feature-title">Audio Capabilities</p>
+                    <p class="feature-explanation">Animatronics have the ability to sing and play recorded songs or sound effects.</p>
+                </div>
+            </section>
+
+            <section class="feature bg-black">
+                <div class="feature-img-wrapper">
+                    <img class="feature-img" src="./bonnie-playing-guitar.png" alt="bonnie-playing-guitar" />
+                </div>
+                <div class="feature-desc">
+                    <p class="feature-title">Interactive Performances</p>
+                    <p class="feature-explanation">Animatronics are capable of dynamic movements and performances.</p>
+                </div>
+            </section>
+
+            <section class="feature bg-black">
+                <div class="feature-img-wrapper">
+                    <img class="feature-img" src="./chica-carrying-cupcake.jpg" alt="chica-carrying-cupcake" />
+                </div>
+                <div class="feature-desc">
+                    <p class="feature-title">Interactive Food Display</p>
+                    <p class="feature-explanation">Plates or trays can be carried by the animatronics enchancing the visual presentation.</p>
+                </div>
+            </section>
+        </section>
+
+        <section id="news" class="news bg-black section">
+            <iframe id="video" class="video" width="560" height="315" src="https://www.youtube.com/embed/0VH9WCFV6XQ?si=xTgc5-QXCdLwvNYL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="pricings" class="pricings bg-black section">
+            <section class="animatronic border-brown">
+                <div class="ani-img-wrapper">
+                    <img class="ani-img" src="./freddy.webp" alt="freddy" />
+                </div>
+                <div class="ani-name bg-brown">
+                    <p>Freddy</p>
+                </div>
+                <div class="ani-desc">
+                    <p>Lead singer of the band, standing in the center of the stage.</p>
+                </div>
+                <div class="buy">
+                    <button class="price">$99.99</button>
+                </div>
+            </section>
+
+            <section class="animatronic border-blue">
+                <div class="ani-img-wrapper">
+                    <img class="ani-img" src="./bonnie.jpg" alt="bonnie" />
+                </div>
+                <div class="ani-name bg-blue">
+                    <p>Bonnie</p>
+                </div>
+                <div class="ani-desc">
+                    <p>Guitarist in Freddy's band, positioned at the left side of the stage.</p>
+                </div>
+                <div class="buy">
+                    <button class="price">$99.99</button>
+                </div>
+            </section>
+
+            <section class="animatronic border-yellow">
+                <div class="ani-img-wrapper">
+                    <img class="ani-img" src="./chica.jpg" alt="chica" />
+                </div>
+                <div class="ani-name bg-yellow">
+                    <p>Chica</p>
+                </div>
+                <div class="ani-desc">
+                    <p>Backup singer in Freddy's band, positioned at the left side of the stage.</p>
+                </div>
+                <div class="buy">
+                    <button class="price">$99.99</button>
+                </div>
+            </section>
+
+            <section class="animatronic border-crimson">
+                <div class="ani-img-wrapper">
+                    <img class="ani-img" src="./foxy.webp" alt="foxy" />
+                </div>
+                <div class="ani-name bg-crimson">
+                    <p>Foxy</p>
+                </div>
+                <div class="ani-desc">
+                    <p>Discontinued animatronic who resides at his own separate stage in the pizzeria.</p>
+                </div>
+                <div class="buy">
+                    <button class="price">$99.99</button>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="bg-black">
+        <div class="footer-nav">
+            <a class="footer-link" href="#" target="_blank">Privacy</a>
+            <a class="footer-link" href="#" target="_blank">Terms</a>
+            <a class="footer-link" href="#" target="_blank">Contacts</a>
+        </div>
+        <p class="copyright">Copyright 2023, Five Nights At Freddy's</p>
+    </footer>
+</body>
+</html>
